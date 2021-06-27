@@ -57,8 +57,7 @@ public class BookStoreDAO implements IBookStoreDAO {
 		bookFromDB.setAuthor(book.getAuthor());
 		bookFromDB.setCategory(book.getCategory());
 		bookFromDB.setPublication(book.getPublication());
-		bookFromDB.setPages(book.getPages());
-		bookFromDB.setPrice(book.getPrice());
+		
 		
 		entityManager.flush();
 		

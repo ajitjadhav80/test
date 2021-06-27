@@ -10,8 +10,6 @@
 	<name>bookstore-spring-demo</name>
 	<description>Book Store Spring Boot Demo</description>
 
-
-
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
